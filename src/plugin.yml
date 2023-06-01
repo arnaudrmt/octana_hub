@@ -1,0 +1,4 @@
+name: Hub
+version: BETA
+main: fr.first92.octahub.Hub
+author: first92
