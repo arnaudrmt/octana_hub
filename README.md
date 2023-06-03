@@ -18,6 +18,8 @@
 
 - **BungeeAPI Integration**: OctanaHub leverages the BungeeAPI to create servers on demand. When a player requests to join a game from the OctanaHub menu, a plugin message is sent to the BungeeAPI. The BungeeAPI maintains a list of players and starts a Docker container with the requested game once enough players have joined, teleporting everyone to the game instance.
 
+- **NPCs**: OctanaHub incorporates custom NPCs created with NMS to enrich player interaction. These NPCs enable players to request to join a game, and their requests are seamlessly sent to OctanaAPI via Redis Plugin Message. This crucial integration ensures smooth communication and streamlined gameplay.
+
 <br/>
 
 ## Usage 📝
